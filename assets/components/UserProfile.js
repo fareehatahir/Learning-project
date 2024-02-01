@@ -4,7 +4,7 @@ import { View, Text, Image, StyleSheet } from "react-native";
 const UserProfile = ({ user }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.logo}>Here Is Your User Profile</Text>
+      <Text style={styles.logo}>Here the new change Is Your User Profile</Text>
       <Image source={{ uri: user.picture.large }} style={styles.profileImage} />
       <View>
         <Text
